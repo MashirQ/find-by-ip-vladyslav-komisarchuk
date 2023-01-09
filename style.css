@@ -1,0 +1,56 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./img/hacker\ keyboard\ balaclava.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.btn {
+    position: relative;
+    width: 200px;
+    height: 100px;
+    margin-top: 10%;
+    border: 5px solid greenyellow;
+    border-radius: 40%;
+    font-size: 25px;
+    background-image: url(./img/matrix.gif);
+    color: white;
+    font-weight: bold;
+} 
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.container {
+    margin-top: 10px;
+    opacity: 0;
+    background-image: url(./img/540f867a16fbd4af04124a76b1760044.jpg);
+    width: 300px;
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10%;
+}
+
+.text {
+    padding-left: 8px;
+    padding-right: 8px;
+    font-size: 25px;
+    color: #00b894;
+    margin: 0;
+}
+
+.text-div {
+    background-color: black;
+    border-radius: 5px;
+}
+
